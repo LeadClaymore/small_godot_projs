@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dade5vxnn03on"]
+
+[ext_resource type="Script" uid="uid://cxjqhx2dwivv" path="res://Boids/flock.gd" id="1_m7gvb"]
+
+[node name="Node2D" type="Node2D" unique_id=2055405894]
+script = ExtResource("1_m7gvb")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=866779047]
+position = Vector2(576, 326)
