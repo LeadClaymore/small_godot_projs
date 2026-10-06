@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://31kd2yw1cklw"]
+
+[ext_resource type="Script" uid="uid://bgao8jmiaqlo8" path="res://Line_Marcher/line_marcher.gd" id="1_3uvvv"]
+
+[node name="Line_Marcher" type="Node2D" unique_id=651021306]
+script = ExtResource("1_3uvvv")
+_debug = true
+random_starting_angle = false
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1758700436]
+anchor_mode = 0
